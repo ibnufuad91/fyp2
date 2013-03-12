@@ -24,6 +24,13 @@ class MembersController extends AppController {
 
 	public function academic(){
 		$this->bc[] = array('name'=>'Academic','url'=>Router::url(array('controller'=>$this->request->controller)));
+		
+		if($this->request->is('post')){
+			$this->uses = array('Academic', 'User');
+			$this->Academic->create();
+			$this->Academic->save($this->request->data);
+		}
+		
 		$this->set('bc', $this->bc);
 	}
 

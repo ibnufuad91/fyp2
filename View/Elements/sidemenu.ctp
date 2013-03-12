@@ -41,7 +41,7 @@
 	<!-- /menu -->
 	
 	<!-- menu #2 -->
-	<nav>
+	<?php /* ?><nav>
 		<h2>Secondary Menu</h2>
 		
 		<ul>
@@ -139,5 +139,5 @@
 			</li>
 		</ul>
 	</nav>
-	<!-- /menu -->
+	<!-- /menu --> <?php */ ?>
 </div>

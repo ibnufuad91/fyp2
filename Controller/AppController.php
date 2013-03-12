@@ -58,7 +58,7 @@ class AppController extends Controller {
 		'Cookie'
 	);
 	
-	public function isAuthorized($user=null){
+	public function isAuthorized($user){
 		return false;
 	}
 	

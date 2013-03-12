@@ -5088,3 +5088,121 @@ Stack Trace:
 #1 C:\wamp\bin\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\wamp\www\fyp\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-03-12 16:37:16 Error: [CakeException] Authentication adapter "Blowfish" was not found.
+#0 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(583): AuthComponent->constructAuthenticate()
+#1 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(MembersController))
+#3 E:\xampp_webroot\cakephp\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\xampp_webroot\cakephp\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 E:\xampp_webroot\cakephp\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#8 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-03-12 16:37:19 Error: [CakeException] Authentication adapter "Blowfish" was not found.
+#0 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(583): AuthComponent->constructAuthenticate()
+#1 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(MembersController))
+#3 E:\xampp_webroot\cakephp\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\xampp_webroot\cakephp\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 E:\xampp_webroot\cakephp\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#8 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-03-12 16:37:21 Error: [CakeException] Authentication adapter "Blowfish" was not found.
+#0 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(583): AuthComponent->constructAuthenticate()
+#1 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(MembersController))
+#3 E:\xampp_webroot\cakephp\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\xampp_webroot\cakephp\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 E:\xampp_webroot\cakephp\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#8 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-03-12 16:38:17 Error: [CakeException] Authentication adapter "Blowfish" was not found.
+#0 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(583): AuthComponent->constructAuthenticate()
+#1 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(MembersController))
+#3 E:\xampp_webroot\cakephp\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\xampp_webroot\cakephp\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 E:\xampp_webroot\cakephp\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#8 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-03-12 16:38:22 Error: [MissingActionException] Action MembersController::typography.php.html() could not be found.
+#0 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-12 16:38:46 Error: [CakeException] Authentication adapter "Blowfish" was not found.
+#0 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(583): AuthComponent->constructAuthenticate()
+#1 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(MembersController))
+#3 E:\xampp_webroot\cakephp\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\xampp_webroot\cakephp\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 E:\xampp_webroot\cakephp\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#8 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-03-12 16:40:42 Error: [CakeException] Authentication adapter "Blowfish" was not found.
+#0 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(583): AuthComponent->constructAuthenticate()
+#1 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 E:\xampp_webroot\cakephp\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\xampp_webroot\cakephp\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 E:\xampp_webroot\cakephp\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#8 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-03-12 16:42:24 Error: [CakeException] Authentication adapter "Blowfish" was not found.
+#0 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(583): AuthComponent->constructAuthenticate()
+#1 E:\xampp_webroot\cakephp\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(MembersController))
+#3 E:\xampp_webroot\cakephp\lib\Cake\Utility\ObjectCollection.php(130): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\xampp_webroot\cakephp\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#6 E:\xampp_webroot\cakephp\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#8 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-03-12 15:44:16 Error: [MissingActionException] Action MembersController::typography.php.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'MembersController',
+  'action' => 'typography.php.html',
+)
+Request URL: /cakephp/fypfahmi/members/typography.php.html
+Stack Trace:
+#0 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 E:\xampp_webroot\cakephp\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MembersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-12 16:22:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fypfahmi/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-03-12 16:22:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/fypfahmi/css/ui-lightness/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 E:\xampp_webroot\cakephp\fypfahmi\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
